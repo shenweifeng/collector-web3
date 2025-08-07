@@ -1,4 +1,4 @@
-# Base44 App
+# Collector.fun
 
 
 This app was created automatically by Base44.
