@@ -47,7 +47,7 @@ export default function HeroSection() {
             </span>
             <br />
             <span className="text-3xl md:text-4xl lg:text-5xl text-gray-300">
-              {t('基于比特币二层的数字收藏品革命', 'Digital Collectibles Revolution on Bitcoin Layer 2')}
+              {t('比特币生态的卡牌数藏革命', 'Digital Collectibles Revolution on Bitcoin Layer 2')}
             </span>
           </motion.h1>
 
@@ -58,7 +58,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            {t('首个将物理卡牌与NFT完美结合的去中心化平台', 'The first decentralized platform perfectly combining physical cards with NFTs')}
+            {t('全球首家潮流现实卡牌与比特币NFT结合的web3平台', 'The first decentralized platform perfectly combining physical cards with NFTs')}
           </motion.p>
 
           {/* CTA Buttons */}
@@ -68,13 +68,13 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <Button 
+            {/*<Button 
               size="lg" 
               className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-lg px-8 py-4 h-auto"
             >
               {t('参与IDO', 'Join IDO')}
               <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
+            </Button>*/}
             <Button 
               size="lg" 
               variant="outline" 

@@ -19,19 +19,19 @@ export default function PartnersSection() {
       title: t('卡牌品牌合作', 'Card Brand Partners'),
       partners: [t('泡泡玛特', 'POP MART'), t('宝可梦', 'Pokémon'), t('迪士尼', 'Disney'), t('万代', 'Bandai')],
       color: 'from-blue-500 to-green-500'
-    },
-    {
-      icon: Truck,
-      title: t('物流合作伙伴', 'Logistics Partners'),
-      partners: [t('顺丰', 'SF Express'), t('中通', 'ZTO'), t('圆通', 'YTO'), t('申通', 'STO')],
-      color: 'from-green-500 to-yellow-500'
-    },
-    {
-      icon: Shield,
-      title: t('保险服务商', 'Insurance Providers'),
-      partners: [t('平安保险', 'Ping An'), t('太平洋保险', 'CPIC'), t('人保', 'PICC'), t('国寿', 'China Life')],
-      color: 'from-yellow-500 to-red-500'
     }
+    // {
+    //   icon: Truck,
+    //   title: t('物流合作伙伴', 'Logistics Partners'),
+    //   partners: [t('顺丰', 'SF Express'), t('中通', 'ZTO'), t('圆通', 'YTO'), t('申通', 'STO')],
+    //   color: 'from-green-500 to-yellow-500'
+    // },
+    // {
+    //   icon: Shield,
+    //   title: t('保险服务商', 'Insurance Providers'),
+    //   partners: [t('平安保险', 'Ping An'), t('太平洋保险', 'CPIC'), t('人保', 'PICC'), t('国寿', 'China Life')],
+    //   color: 'from-yellow-500 to-red-500'
+    // }
   ];
 
   return (
@@ -52,7 +52,7 @@ export default function PartnersSection() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-4">
           {partnerCategories.map((category, index) => (
             <motion.div
               key={index}

@@ -32,7 +32,7 @@ export default function Footer() {
               <span className="text-white font-bold text-xl">Collector.fun</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
-              {t('基于比特币二层的数字收藏品革命平台，首个将物理卡牌与NFT完美结合的去中心化生态。', 'Revolutionary digital collectibles platform on Bitcoin Layer 2, the first decentralized ecosystem perfectly combining physical cards with NFTs.')}
+              {t('比特币生态的卡牌数藏革命平台，首个将物理卡牌与NFT完美结合的去中心化生态。', 'Revolutionary digital collectibles platform on Bitcoin Layer 2, the first decentralized ecosystem perfectly combining physical cards with NFTs.')}
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
@@ -93,7 +93,7 @@ export default function Footer() {
 
         <div className="border-t border-purple-500/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 Collector.fun. {t('保留所有权利', 'All rights reserved')}.
+            © 2025 Collector.fun. {t('保留所有权利', 'All rights reserved')}.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">

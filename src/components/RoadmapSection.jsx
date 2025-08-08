@@ -13,10 +13,10 @@ export default function RoadmapSection() {
       duration: t('30天', '30 Days'),
       status: 'active',
       items: [
-        t('比特币二层协议搭建', 'Bitcoin Layer 2 Protocol Construction'),
+        t('比特币生态协议搭建', 'Bitcoin ecological protocol construction'),
         t('COLL代币发行及IDO', 'COLL Token Issuance and IDO'),
-        t('核心团队组建完成', 'Core Team Assembly Complete'),
-        t('社区建设启动', 'Community Building Launch')
+        // t('核心团队组建完成', 'Core Team Assembly Complete'),
+        t('启动全球社区建设', 'Start building a global community')
       ]
     },
     {
@@ -116,9 +116,9 @@ export default function RoadmapSection() {
                     <CardHeader>
                       <CardTitle className="text-white text-2xl flex items-center justify-between">
                         {phase.phase}
-                        <span className="text-sm font-normal text-purple-400 bg-purple-500/20 px-3 py-1 rounded-full">
+                        {/*<span className="text-sm font-normal text-purple-400 bg-purple-500/20 px-3 py-1 rounded-full">
                           {phase.duration}
-                        </span>
+                        </span>*/}
                       </CardTitle>
                     </CardHeader>
                     <CardContent>

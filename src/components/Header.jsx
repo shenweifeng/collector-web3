@@ -81,9 +81,9 @@ export default function Header() {
               <Button variant="outline" className="border-purple-500 text-purple-400 hover:bg-purple-500 hover:text-white">
                 {t('了解COLL', 'Learn COLL')}
               </Button>
-              <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
+              {/* <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
                 {t('参与IDO', 'Join IDO')}
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
@@ -110,9 +110,9 @@ export default function Header() {
                 <Button variant="outline" className="border-purple-500 text-purple-400 hover:bg-purple-500 hover:text-white">
                   {t('了解COLL', 'Learn COLL')}
                 </Button>
-                <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
+                {/*<Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
                   {t('参与IDO', 'Join IDO')}
-                </Button>
+                </Button>*/}
               </div>
             </div>
           </motion.div>

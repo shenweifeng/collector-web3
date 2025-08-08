@@ -69,7 +69,7 @@ export default function PlatformSection() {
             {t('平台功能', 'Platform Features')}
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            {t('集NFT确权、DeFi协议、娱乐生态于一体的综合平台', 'Comprehensive platform integrating NFT rights, DeFi protocols, and entertainment ecosystem')}
+            {t('集NFT铸造交易、DeFi协议、娱乐生态于一体的综合平台', 'Comprehensive platform integrating NFT rights, DeFi protocols, and entertainment ecosystem')}
           </p>
         </motion.div>
 
